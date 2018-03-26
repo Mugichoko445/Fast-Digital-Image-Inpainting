@@ -53,7 +53,7 @@ void inpaint(const cv::Mat &src, const cv::Mat &mask, const cv::Mat kernel, cv::
 		}
 
 		// for debugging
-		cv::imshow("Convolutional Inpainting", result / 255.0f);
+		cv::imshow("Inpainting...", result / 255.0f);
 		cv::waitKey(1);
 	}
 
